@@ -1,7 +1,7 @@
 {
   "id": "pornhub",
   "name": "PornHub (18+)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/pornhub.json",
   "language": "typescript",
   "type": "custom-source",
