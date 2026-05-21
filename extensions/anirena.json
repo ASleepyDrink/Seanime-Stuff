@@ -3,7 +3,7 @@
     "name": "AniRena",
     "description": "AniRena torrent provider for Seanime.",
     "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/anirena.json",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "eepyboba",
     "type": "anime-torrent-provider",
     "language": "typescript",
