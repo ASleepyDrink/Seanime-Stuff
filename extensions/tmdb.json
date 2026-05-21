@@ -1,6 +1,6 @@
 {
   "id": "tmdb",
-  "name": "TMDb",
+  "name": "TMDB",
   "version": "1.0.0",
   "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/tmdb.json",
   "language": "typescript",
