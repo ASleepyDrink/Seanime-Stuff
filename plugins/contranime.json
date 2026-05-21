@@ -20,7 +20,7 @@
         "unsafeFlags": [
           {
             "flag": "dom-script-manipulation",
-            "reason": "Required to inject the DOSBox emulator (JS-DOS) and game logic script into the page."
+            "reason": "Required to use controller support."
           }
         ]
       }
