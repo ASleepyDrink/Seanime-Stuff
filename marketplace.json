@@ -1288,5 +1288,42 @@
     "author": "eepyboba",
     "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/seautils.png",
     "lang": "en"
+  },
+  {
+    "id": "mangaoni",
+    "name": "MangaOni",
+    "description": "Proveedor de manga en español para MangaOni.",
+    "author": "mohaisreal",
+    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaOni/manifest.json",
+    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaOni/favicon.ico",
+    "type": "manga-provider",
+    "language": "typescript",
+    "lang": "es"
+  },
+  {
+    "id": "nhentai-cs",
+    "name": "nhentai",
+    "version": "1.0.0",
+    "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/nhentai/nhentai-cs.json",
+    "language": "typescript",
+    "type": "custom-source",
+    "description": "Implements nhentai as a custom source.",
+    "author": "nnotwen",
+    "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/nhentai/icon.png",
+    "website": "",
+    "lang": "multi"
+  },
+  {
+    "id": "nhentai",
+    "name": "nhentai",
+    "version": "1.0.0",
+    "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/nhentai/nhentai.json",
+    "language": "typescript",
+    "type": "manga-provider",
+    "description": "Manga provider for nhentai.net. Can only work with nhentai custom source.",
+    "author": "nnotwen",
+    "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/custom-source/nhentai/icon.png",
+    "website": "",
+    "lang": "multi"
   }
 ]
