@@ -1339,5 +1339,18 @@
     "website": "https://asunatracks.space",
     "readme": "https://raw.githubusercontent.com/Kolex06/asunatracks-seanime-sync/main/README.md",
     "lang": "en"
+  },
+  {
+    "id": "animetosho-new",
+    "name": "AnimeTosho (NEW)",
+    "version": "2.1.0",
+    "language": "typescript",
+    "type": "anime-torrent-provider",
+    "description": "Integrates Anime Tosho (NEW) as a torrent streaming provider for Seanime.",
+    "author": "Faddix, Island",
+    "icon": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/src/animetosho-new-logo.png",
+    "lang": "multi",
+    "payloadURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.ts",
+    "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json"
   }
 ]
