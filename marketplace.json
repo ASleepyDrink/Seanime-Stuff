@@ -918,18 +918,6 @@
     "website": "https://github.com/nnotwen/n-seanime-extensions"
   },
   {
-    "id": "AniLiberty",
-    "name": "AniLiberty",
-    "description": "Fetches anime torrents from AniLiberty (aniliberty.top) API",
-    "author": "vsecoder",
-    "manifestURI": "https://raw.githubusercontent.com/vsecoder/AniLiberty-Seanime/main/src/manifest.json",
-    "icon": "https://raw.githubusercontent.com/vsecoder/AniLiberty-Seanime/main/src/icon.png",
-    "type": "anime-torrent-provider",
-    "language": "typescript",
-    "lang": "ru",
-    "website": "https://aniliberty.top"
-  },
-  {
     "id": "notes",
     "name": "Notes",
     "description": "Save, sync, and manage personal thoughts across your anime and manga lists.",
