@@ -404,7 +404,7 @@
     "author": "eepyboba",
     "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/webtoons-manhua.json",
     "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/webtoons.png",
-    "type": "MANGA-provider",
+    "type": "manga-provider",
     "language": "typescript",
     "lang": "multi"
   },
