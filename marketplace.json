@@ -1369,5 +1369,20 @@
     "language": "javascript",
     "lang": "en",
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangabuddy/provider.js"
+  },
+  {
+    "id": "SeaUtils-Kolex06-Version",
+    "name": "SeaUtils Kolex06-Version",
+    "version": "1.2.66",
+    "manifestURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtils-Kolex06-Version.json",
+    "language": "typescript",
+    "type": "plugin",
+    "description": "A utility plugin to enhance seanime.",
+    "author": "Kolex06",
+    "icon": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/main/icons/SeaUtils-Kolex06-Version.png",
+    "website": "",
+    "readme": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/README.md",
+    "lang": "en",
+    "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts"
   }
 ]
