@@ -1384,5 +1384,18 @@
     "readme": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/README.md",
     "lang": "en",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts"
+  },
+  {
+    "id": "anidao",
+    "name": "AniDao",
+    "description": "AniDao is an online streaming provider for subbed & dubbed anime in english",
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/manifest.json",
+    "version": "1.0.0",
+    "author": "Pal",
+    "type": "onlinestream-provider",
+    "language": "javascript",
+    "lang": "en",
+    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/anidao.png",
+    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/provider.js"
   }
 ]
