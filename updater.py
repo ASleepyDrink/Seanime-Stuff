@@ -2,6 +2,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import sys
+import re
 
 URL = "https://everythingmoe.com/activity.html"
 JSON_FILE = "marketplace.json"
@@ -21,21 +22,6 @@ def main():
         print("Could not find <div id='changelog-cont'> on the page.")
         sys.exit(1)
 
-    removed_sites = set()
-
-    for entry in changelog.find_all(['div', 'li', 'p']):
-        text = entry.get_text().lower()
-        if 'removed' in text or 'dead' in text:
-            site_tag = entry.find('a')
-            if site_tag:
-                removed_sites.add(site_tag.get_text().strip().lower())
-
-    if not removed_sites:
-        print("No removed sites found in the changelog.")
-        sys.exit(0)
-
-    print(f"Found removed sites: {removed_sites}")
-
     try:
         with open(JSON_FILE, 'r', encoding='utf-8') as f:
             marketplace_data = json.load(f)
@@ -43,18 +29,33 @@ def main():
         print(f"{JSON_FILE} not found.")
         sys.exit(1)
 
-    original_count = len(marketplace_data)
-    updated_data = [
-        item for item in marketplace_data
-        if item.get('name', '').lower() not in removed_sites
-    ]
+    changelog_text = changelog.get_text(separator=' ').lower()
 
-    if len(updated_data) != original_count:
+    original_count = len(marketplace_data)
+    updated_data = []
+    removed_sites_found = []
+
+    for item in marketplace_data:
+        site_name = item.get('src', item.get('name', '')).strip().lower()
+
+        if not site_name:
+            updated_data.append(item)
+            continue
+
+        pattern = rf"removed\s*>\s*{re.escape(site_name)}"
+
+        if re.search(pattern, changelog_text):
+            removed_sites_found.append(site_name)
+        else:
+            updated_data.append(item)
+
+    if removed_sites_found:
+        print(f"Found and removed dead sites: {', '.join(removed_sites_found)}")
         with open(JSON_FILE, 'w', encoding='utf-8') as f:
             json.dump(updated_data, f, indent=4)
         print(f"Success! Removed {original_count - len(updated_data)} items from marketplace.json.")
     else:
-        print("No matches found. marketplace.json is already up to date.")
+        print("No removed sites found in the changelog that match marketplace.json.")
 
 if __name__ == "__main__":
     main()
