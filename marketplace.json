@@ -44,18 +44,6 @@
     "lang": "multi"
   },
   {
-    "id": "kagane-source",
-    "name": "Kagane",
-    "description": "Implements Kagane as a custom source.",
-    "author": "jabifx",
-    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/KaganeSoruce/manifest.json",
-    "icon": "https://kagane.org/favicon.ico",
-    "type": "custom-source",
-    "language": "typescript",
-    "lang": "multi"
-  },
-
-  {
     "id": "SubsPlease-Provider",
     "name": "SubsPlease",
     "description": "Fetches torrents from SubsPlease.org",
