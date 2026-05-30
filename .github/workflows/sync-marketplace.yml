@@ -26,7 +26,7 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Run Scraper and Update JSON
-        run: python scraper.py
+        run: python updater.py
 
       - name: Commit and Push Changes
         run: |
