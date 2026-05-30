@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import sys
 
-URL = "https://everything.moe/"
+URL = "https://everythingmoe.com/activity.html"
 JSON_FILE = "marketplace.json"
 
 def main():
