@@ -1395,5 +1395,31 @@
         "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/LeerMangaEsp/icon.png",
         "lang": "es",
         "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/LeerMangaEsp/main.ts"
+    },
+    {
+      "id": "animeheaven",
+      "name": "AnimeHeaven",
+      "description": "AnimeHeaven is an online streaming provider for subbed anime in english",
+      "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/manifest.json",
+      "version": "1.1.1",
+      "author": "Pal",
+      "type": "onlinestream-provider",
+      "language": "javascript",
+      "lang": "en",
+      "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/animeheaven.png",
+      "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/provider.js"
+    },
+    {
+      "id": "animesalt",
+      "name": "AnimeSalt",
+      "version": "1.0.0",
+      "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/manifest.json",
+      "language": "typescript",
+      "type": "onlinestream-provider",
+      "description": "AnimeSalt is an online streaming provider for Hindi, Tamil, Telugu, English and Japanese anime streams.",
+      "author": "mohaisreal",
+      "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/icon.png",
+      "lang": "multi",
+      "payloadURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/AnimeSalt/main.ts"
     }
 ]
