@@ -1,0 +1,40 @@
+name: Sync Marketplace JSON
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-marketplace:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run Scraper and Update JSON
+        run: python scraper.py
+
+      - name: Commit and Push Changes
+        run: |
+          # Configure Git to commit as the GitHub Actions bot
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          git add marketplace.json
+
+          # Check if there are any changes to commit. If there are, commit and push.
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-removed dead sites from marketplace.json" && git push)
