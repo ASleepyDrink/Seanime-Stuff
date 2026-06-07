@@ -503,17 +503,6 @@
     "website": "https://hentaihaven.xxx"
   },
   {
-    "id": "oppaistream-online-streaming",
-    "name": "EN | Oppai Stream (18+)",
-    "description": "Provides seamless integration with the Oppai Stream catalog for online streaming within Seanime, enabling users to browse, search, and watch available titles directly from the platform.",
-    "author": "TropicalFrog3",
-    "manifestURI": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/oppai-stream/manifest.json",
-    "icon": "https://raw.githubusercontent.com/TropicalFrog3/seanime-extension/refs/heads/main/online-streaming/oppai-stream/favicon.png",
-    "type": "onlinestream-provider",
-    "language": "typescript",
-    "lang": "en"
-  },
-  {
     "id": "hentaisaturn",
     "name": "HentaiSaturn",
     "description": "HentaiSaturn is an online streaming provider for subbed/dubbed Hentai in Italian",
@@ -567,17 +556,6 @@
     "author": "nnotwen",
     "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/alternative-titles.json",
     "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/plugins/Alternative%20Titles/icon.png",
-    "type": "plugin",
-    "language": "typescript",
-    "lang": "multi"
-  },
-  {
-    "id": "subtitle-engine",
-    "name": "Subtitle Engine",
-    "description": "Add subtitles of your preferred language and format scraped from multiple different sources to your current session.",
-    "author": "Thekingcrusher",
-    "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/subtitle-engine/manifest.json",
-    "icon": "https://raw.githubusercontent.com/Thekingcrusher/seanime-plugins/refs/heads/main/subtitle-engine/icon.png",
     "type": "plugin",
     "language": "typescript",
     "lang": "multi"
@@ -1329,20 +1307,6 @@
     "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json"
   },
   {
-    "id": "animepahe",
-    "name": "Animepahe",
-    "version": "1.2.2",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/animepahe/manifest.json",
-    "language": "typescript",
-    "type": "onlinestream-provider",
-    "description": "Animepahe streaming provider for Seanime",
-    "author": "ItsSkaiya & Pal",
-    "icon": "https://raw.githubusercontent.com/Pal-droid/seanime-marketplace/refs/heads/main/animepahe.png",
-    "website": "",
-    "lang": "en",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/anime/animepahe/provider.ts"
-  },
-  {
     "id": "mangabuddy",
     "name": "MangaBuddy",
     "description": "MangaBuddy is a manga provider for Seanime",
@@ -1436,17 +1400,46 @@
     "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidb/provider.js"
   },
   {
-    "id": "toonily",
-    "name": "Toonily",
-    "version": "1.0.0",
-    "manifestURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/toonily/toonily.json",
-    "language": "typescript",
+    "id": "mediocrescan",
+    "name": "MediocreScan",
+    "description": "Provider de manhwas do MediocreScan. OBS: Requer uma conta criada no site (configurada no menu da extensão) para funcionar.",
+    "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mediocrescan/mediocrescan.json",
+    "version": "1.0.1",
+    "author": "jhoorodr",
     "type": "manga-provider",
-    "description": "Manga (Manhwa only) provider for toonily.com.",
-    "author": "nnotwen",
-    "icon": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/toonily/icon.png",
-    "website": "https://toonily.com",
+    "language": "typescript",
+    "lang": "pt-BR",
+    "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/src/icon/mediocrescan.png",
+    "payloadURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/mediocrescan/mediocrescan-provider.ts"
+  },
+  {
+    "id": "anikoto",
+    "name": "Anikoto",
+    "version": "1.3.25",
+    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/manifest.json",
+    "language": "typescript",
+    "type": "onlinestream-provider",
+    "description": "Only anikoto compatibility layer you'll ever need",
+    "author": "aquaryuo",
+    "icon": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/icon.png",
+    "website": "https://anikototv.to",
     "lang": "en",
-    "payloadURI": "https://raw.githubusercontent.com/nnotwen/n-seanime-extensions/master/manga-provider/toonily/provider.ts"
+    "payloadURI": "https://raw.githubusercontent.com/aquaryuo/extensions/main/seanime/anikoto/provider.ts"
+  },
+  {
+    "id": "AniList-Notifications-Kolex06-Version",
+    "name": "AniList Notifications Kolex06-Version",
+    "version": "1.0.15",
+    "manifestURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniList-Notifications-Kolex06-Version.json",
+    "language": "typescript",
+    "type": "plugin",
+    "description": "A Seanime sidebar panel for AniList notifications with larger cards and click-through detail popups.",
+    "author": "Kolex06",
+    "icon": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/main/icons/AniList-Notifications-Kolex06-Version.png",
+    "website": "https://anilist.co",
+    "readme": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniListNotificationsKolex06Version/README.md",
+    "notes": "Requires an AniList account connected in Seanime. Open the AniList sidebar button, refresh notifications, click a notification for a larger popup, and use the AniList icon button to open the matching AniList page.",
+    "lang": "en",
+    "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniListNotificationsKolex06Version/provider.ts"
   }
 ]
