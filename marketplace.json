@@ -66,17 +66,6 @@
     "lang": "multi"
   },
   {
-    "id": "rutracker-torapi",
-    "name": "RuTracker",
-    "description": "Поиск аниме-торрентов на RuTracker через TorAPI",
-    "author": "cerXXXX",
-    "manifestURI": "https://raw.githubusercontent.com/cerXXXX/RuTrackerProvider-seanime-extension/refs/heads/main/manifest.json",
-    "icon": "https://raw.githubusercontent.com/cerXXXX/RuTrackerProvider-seanime-extension/refs/heads/main/favicon.ico",
-    "type": "anime-torrent-provider",
-    "language": "typescript",
-    "lang": "ru"
-  },
-  {
     "id": "nyaa",
     "name": "Nyaa",
     "description": "Nyaa provider for english-translated torrents. Low-accuracy for auto-select.",
@@ -156,17 +145,6 @@
     "website": "https://github.com/Bas1874/Acgnx-Seanime"
   },
   {
-    "id": "acg-rip-provider",
-    "name": "ACG.RIP",
-    "description": "Fetches torrents from acg.rip.",
-    "author": "Bas1874",
-    "manifestURI": "https://raw.githubusercontent.com/Bas1874/ACG.RIP-Torrent-Provider-Seanime/refs/heads/main/src/manifest.json",
-    "icon": "https://raw.githubusercontent.com/Bas1874/ACG.RIP-Torrent-Provider-Seanime/main/src/icons/images.jpeg",
-    "type": "anime-torrent-provider",
-    "language": "typescript",
-    "lang": "multi"
-  },
-  {
     "id": "thepiratebay",
     "name": "ThePiratebay",
     "description": "Adds ThePirateBay on Seanime as a torrent provider.",
@@ -176,17 +154,6 @@
     "type": "anime-torrent-provider",
     "language": "typescript",
     "lang": "en"
-  },
-  {
-    "id": "Tokyo-Toshokan-Provider",
-    "name": "Tokyo Toshokan",
-    "description": "Fetches torrents from Tokyo-Toshokan.",
-    "author": "Bas1874",
-    "manifestURI": "https://raw.githubusercontent.com/Bas1874/Tokyotosho-Torrent-Provider-Seanime/main/src/tokyotosho/manifest.json",
-    "icon": "https://raw.githubusercontent.com/Bas1874/Tokyotosho-Torrent-Provider-Seanime/main/src/icons/icon.png",
-    "type": "anime-torrent-provider",
-    "language": "typescript",
-    "lang": "multi"
   },
   {
     "id": "al-3asq",
@@ -436,16 +403,6 @@
     "type": "onlinestream-provider",
     "language": "typescript",
     "lang": "it"
-  },
-  {
-    "id": "anizone",
-    "name": "AniZone",
-    "description": "Online streaming provider with soft subs and dubs.",
-    "author": "jabifx",
-    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/AniZone/manifest.json",
-    "type": "onlinestream-provider",
-    "language": "typescript",
-    "lang": "multi"
   },
   {
     "id": "anime-sama-online-streaming",
@@ -729,17 +686,6 @@
     "type": "plugin",
     "language": "typescript",
     "lang": "EN"
-  },
-  {
-    "id": "darkmahou-provider",
-    "name": "DarkMahou",
-    "description": "Provedor de torrents de anime do site DarkMahou.org com busca inteligente e detecção corrigida de batches",
-    "author": "jhoorodr",
-    "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/darkmahou/darkmahou-provider.json",
-    "icon": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/master/src/icon/icon.png",
-    "type": "anime-torrent-provider",
-    "language": "typescript",
-    "lang": "pt-BR"
   },
   {
     "id": "setwatched",
@@ -1147,18 +1093,6 @@
     "lang": "en"
   },
   {
-    "id": "hentaiera",
-    "name": "HentaiEra (18+)",
-    "version": "1.0.2",
-    "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/hentaiera.json",
-    "language": "typescript",
-    "type": "custom-source",
-    "description": "Implements HentaiEra as a custom source.",
-    "author": "eepyboba",
-    "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/hentaiera.png",
-    "lang": "multi"
-  },
-  {
     "id": "pornhub",
     "name": "PornHub (18+)",
     "version": "1.0.1",
@@ -1180,18 +1114,6 @@
     "description": "Implements TMDb as a custom source.",
     "author": "eepyboba",
     "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/tmdb.png",
-    "lang": "multi"
-  },
-  {
-    "id": "youtube",
-    "name": "YouTube",
-    "version": "1.0.0",
-    "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/youtube.json",
-    "language": "typescript",
-    "type": "custom-source",
-    "description": "Implements youtube as a custom source",
-    "author": "eepyboba",
-    "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/youtube.png",
     "lang": "multi"
   },
   {
@@ -1313,19 +1235,6 @@
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/SeaUtilsKolex06Version/provider.ts"
   },
   {
-    "id": "anidao",
-    "name": "AniDao",
-    "description": "AniDao is an online streaming provider for subbed & dubbed anime in english",
-    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/manifest.json",
-    "version": "1.0.0",
-    "author": "Pal",
-    "type": "onlinestream-provider",
-    "language": "javascript",
-    "lang": "en",
-    "icon": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/public/anidao.png",
-    "payloadURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/anidao/provider.js"
-  },
-  {
     "id": "leermangaesp",
     "name": "LeerMangaEsp",
     "version": "1.0.0",
@@ -1419,16 +1328,5 @@
     "notes": "Requires an AniList account connected in Seanime. Open the AniList sidebar button, refresh notifications, click a notification for a larger popup, and use the AniList icon button to open the matching AniList page.",
     "lang": "en",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniListNotificationsKolex06Version/provider.ts"
-  },
-  {
-    "id": "hentaiera-read",
-    "name": "HentaiEra (18+)",
-    "version": "1.0.0",
-    "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/hentaiera-read.json",
-    "language": "javascript",
-    "type": "manga-provider",
-    "description": "HentaiEra is a manga provider for Seanime",
-    "author": "eepyboba",
-    "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/hentaiera.png"
   }
 ]
