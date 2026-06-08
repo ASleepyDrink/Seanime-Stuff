@@ -342,17 +342,6 @@
     "lang": "it"
   },
   {
-    "id": "manhwaweb",
-    "name": "ManhwaWeb",
-    "description": "Spanish manga and manhwa provider.",
-    "author": "jabifx",
-    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/ManhwaWeb/manifest.json",
-    "icon": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/ManhwaWeb/icon.png",
-    "type": "manga-provider",
-    "language": "typescript",
-    "lang": "es"
-  },
-  {
     "id": "al-olympustaff",
     "name": "OlympusStaff",
     "description": "Manga provider for olympustaff.com (Arabic)",
@@ -1241,17 +1230,6 @@
     "lang": "en"
   },
   {
-    "id": "mangaoni",
-    "name": "MangaOni",
-    "description": "Proveedor de manga en español para MangaOni.",
-    "author": "mohaisreal",
-    "manifestURI": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaOni/manifest.json",
-    "icon": "https://raw.githubusercontent.com/mohaisreal/seanime-ext/main/src/MangaOni/favicon.ico",
-    "type": "manga-provider",
-    "language": "typescript",
-    "lang": "es"
-  },
-  {
     "id": "nhentai-cs",
     "name": "nhentai",
     "version": "1.0.0",
@@ -1441,5 +1419,16 @@
     "notes": "Requires an AniList account connected in Seanime. Open the AniList sidebar button, refresh notifications, click a notification for a larger popup, and use the AniList icon button to open the matching AniList page.",
     "lang": "en",
     "payloadURI": "https://raw.githubusercontent.com/Kolex06/Seanime-Stuff/refs/heads/main/plugins/AniListNotificationsKolex06Version/provider.ts"
+  },
+  {
+    "id": "hentaiera-read",
+    "name": "HentaiEra (18+)",
+    "version": "1.0.0",
+    "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/hentaiera-read.json",
+    "language": "javascript",
+    "type": "manga-provider",
+    "description": "HentaiEra is a manga provider for Seanime",
+    "author": "eepyboba",
+    "icon": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/icons/hentaiera.png"
   }
 ]
