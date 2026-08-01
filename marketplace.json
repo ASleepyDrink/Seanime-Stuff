@@ -1432,17 +1432,6 @@
         "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/kaa/logo.ico"
     },
     {
-        "id": "senshi",
-        "name": "Senshi",
-        "version": "1.0.2",
-        "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/manifest.json",
-        "language": "typescript",
-        "type": "onlinestream-provider",
-        "description": "Senshi is an online stream provider for both hardsub and dub.",
-        "author": "Thekingcrusher",
-        "icon": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/senshi/logo.png"
-    },
-    {
         "id": "seastats",
         "name": "SeaStats",
         "version": "0.1.4",
